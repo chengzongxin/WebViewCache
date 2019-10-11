@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WebViewCache"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A framework is a cache tool,let web speed up!"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "Source", "Source/**/*.{h,m}"
+  spec.source_files  = "Source"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
